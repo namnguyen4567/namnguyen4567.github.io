@@ -5,17 +5,17 @@ h1 {
     font-family: bodoni-urw, serif;
     font-weight: 800;
     text-align: center;
-    font-size: 200px;
-    color: rgb(24, 24, 24);
+    font-size: 100px;
+    color: whitesmoke;
     background-image: url("image-1.jpg");
+    background-position: center;
+    background-size: 100%;
     margin-top: 0;
+    padding-bottom: 300px;
+    padding-top: 300px;
+
 }
 
-.image-1 {
-  weight: 100%; 
-}
-
-background-color: rgb(255, 255, 255);
 
 @import "compass/css3";
 
@@ -34,6 +34,20 @@ p { color: white}
 
 
 .column {
+    float: left;
+    width: 10%;
+    font-size: 80px;
+    margin-left: 10%;
+  }
+
+  .column2 {
+    float: left;
+    width: 10%;
+    font-size: 80px;
+    margin-left: 20%;
+  }
+
+  .column3 {
     float: left;
     width: 10%;
     font-size: 80px;
