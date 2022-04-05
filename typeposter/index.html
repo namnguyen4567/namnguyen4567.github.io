@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>project 2</title>
+<link href="assets/styles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://use.typekit.net/mrc2ovq.css">
+</head>
+
+<body>
+
+
+  <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     width="600px" height="100px" viewBox="0 0 600 100">
+  <style type="text/css">
+  
+  <![CDATA[
+  
+    text {
+      filter: url(#filter);
+      fill: white;
+      font-family: bodoni-urw, serif;
+      font-size: 100px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+           }
+  ]]>
+  </style>
+    <defs>
+  
+      <filter id="filter">
+          <feFlood flood-color="black" result="black" />
+          <feFlood flood-color="red" result="flood1" />
+          <feFlood flood-color="limegreen" result="flood2" />
+        <feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+        <feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+        <feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+        <feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+          <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+          <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+  
+           <feMerge x="0" width="100%" result="merge1">
+          <feMergeNode in = "black" />
+          <feMergeNode in = "comp1" />
+          <feMergeNode in = "off1b" />
+  
+          <animate 
+            attributeName="y" 
+              id = "y"
+              dur ="4s"
+              
+              values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+  
+              keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+  
+              repeatCount = "indefinite" />
+   
+          <animate attributeName="height" 
+              id = "h" 
+              dur ="4s"
+              
+              values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+  
+              keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+  
+              repeatCount = "indefinite" />
+          </feMerge>
+         
+  
+         <feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+          <feMergeNode in = "black" />
+          <feMergeNode in = "comp2" />
+          <feMergeNode in = "off2b" />
+  
+          <animate attributeName="y" 
+              id = "y"
+              dur ="4s"
+              values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
+  
+              keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+  
+               repeatCount = "indefinite" />
+   
+          <animate attributeName="height" 
+              id = "h"
+              dur = "4s"
+            
+            values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+  
+              keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+               
+              repeatCount = "indefinite" />
+          </feMerge>
+        
+         <feMerge>
+           <feMergeNode in="SourceGraphic" />	
+  
+          <feMergeNode in="merge1" /> 
+         <feMergeNode in="merge2" />
+  
+          </feMerge>
+        </filter>
+  
+    </defs>
+  
+  <g>
+    <text x="65" y="100">Welcome to</text>
+  </g>
+  </svg>
+
+
+
+
+
+<h1>How It Made</h1>
+
+<div class="row">
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
+
+<p class="column">H</p>
+<p class="column">O</p>
+<P class="column">W</P>
+<p class="column">I</p>
+<P class="column">T</P>
+<P class="column">M</P>
+<P class="column">A</P>
+<P class="column">D</P>
+<P class="column">E</P>
+
+
+<p class="column100">February 19</p>
+<p  class="column100">Doors open at 6:30 PM – L'auberge</p>
+<p  class="column100">
+  Each year, the American Advertising Federation recognizes some of the best creative work in the country. A three-tiered creative competition, entrants must first compete on a local level through an affiliated AAF chapter. Work awarded a gold or silver at the local level can advance to the second tier, the AAF District 7 competition. Recipients of gold and silver awards at this level can advance on to the national competition, where winners are presented at the national AAF convention each year.
+</p>
+<h2>The American Advertising Awards</h2>
+  <p>The American Advertising Awards® is the advertising industry’s largest and most representative competition, attracting over 40,000 entries every year in local chapter of the American Advertising Federation (AAF) competitions. The mission of the competition is to recognize and reward the creative spirit of excellence in the art of advertising.
+  Conducted annually by the AAF, the local Ad Club phase is the first of a three-tier, national competition. Concurrently, all across the country, local entrants vie to receive an ADDY Award—recognition as the very best in their markets. At the second tier, local ADDY winners compete against winners from other local clubs in one of 15 district competitions. District ADDY winners are then forwarded to the third tier, the national stage of the American Advertising Awards. Entry in your local Ad Club competition is the first step toward winning a national ADDY.
+  Entering the American Advertising Awards supports the entire advertising industry, because the AAF and its local and district affiliates use the proceeds to enhance advertising through programs such as public service, internships, advocacy groups, advertising education, and consumer awareness.</p>
+<h3>How Do I Win An ADDY?</h3>
+  <p>A panel of judges evaluate the winning work through a scoring process. All entries are evaluated independently, which means there may not be a winner in every category if the entry does not score high enough. A GOLD ADDY is recognition of the highest level of creative excellence and is judged to be superior to all other entries in the category. Entries that are also considered outstanding and worthy of recognition receive a SILVER ADDY. The number of awards given in each category is determined by the judges, based on the relative quality of work in that category.</p>
+<h3>Who Can Enter?</h3>
+  <p>This competition is open to all creative services and industry suppliers including but not limited to advertising, graphic design, photographers, printers, newspaper, radio, television, web, marketing and communication professionals as well as students studying in these areas. The submission must be work created locally.</p>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

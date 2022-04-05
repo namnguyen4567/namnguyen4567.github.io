@@ -1,0 +1,92 @@
+
+
+
+h1 {
+    font-family: bodoni-urw, serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 200px;
+    color: rgb(24, 24, 24);
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+
+
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+body{
+  background: black;
+}
+p { color: white}
+.info {
+  color: white;
+  font:1em/1 sans-serif;
+  text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 10%;
+    font-size: 80px;
+    margin-left: 10%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+.info a{
+  color: white;
+}
+.column100 {
+    float:left;
+    width: 100%;
+}
+
+svg{
+  width: 800px;
+  height: 600px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+}
+
+
+
+ul {
+
+}
+
+/*define the link styles*/
+a {
+
+}
+a:hover {
+
+}
+a:visited {
+
+}
+
+/*define the strong styles*/
+strong {
+
+}
+
+/*define the emphasis styles*/
+em {
+
+}
+/*define the image styles*/
+
+img {
+ 
+}
