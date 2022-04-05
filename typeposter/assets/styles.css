@@ -7,11 +7,15 @@ h1 {
     text-align: center;
     font-size: 200px;
     color: rgb(24, 24, 24);
-    background-color: rgb(255, 255, 255);
+    background-image: url("image-1.jpg");
     margin-top: 0;
 }
 
+.image-1 {
+  weight: 100%; 
+}
 
+background-color: rgb(255, 255, 255);
 
 @import "compass/css3";
 
