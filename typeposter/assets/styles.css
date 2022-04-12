@@ -1,29 +1,29 @@
 
-
-
+.header {
+  background-image: url("image-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-bottom: 150px;
+  text-align: center;
+}
 h1 {
     font-family: bodoni-urw, serif;
     font-weight: 800;
-    text-align: center;
+    margin-bottom: 200px;
     font-size: 100px;
     color: whitesmoke;
-    background-image: url("image-1.jpg");
-    background-position: center;
-    background-size: 100%;
+   
+    
     margin-top: 0;
-    padding-bottom: 300px;
+    
     padding-top: 300px;
 
 }
-
-
 @import "compass/css3";
-
 @import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
-
-
 body{
-  background: black;
+  background-image: linear-gradient(180deg, black, #404040);
 }
 p { color: white}
 .info {
@@ -31,29 +31,35 @@ p { color: white}
   font:1em/1 sans-serif;
   text-align: center;
 }
-
-
+letter:hover{ 
+  background-color: aqua;
+}
+.introduction {
+  font-weight: 100px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%
+}
 .column {
     float: left;
     width: 10%;
     font-size: 80px;
     margin-left: 10%;
   }
-
   .column2 {
     float: left;
     width: 10%;
     font-size: 80px;
     margin-left: 20%;
   }
-
   .column3 {
+    transform: rotate(20deg);
     float: left;
     width: 10%;
     font-size: 80px;
     margin-left: 10%;
   }
-  
   .row:after {
     content: "";
     display: table;
@@ -66,7 +72,46 @@ p { color: white}
     float:left;
     width: 100%;
 }
-
+.two-columns {
+  float:left;
+  margin-left: 5%;
+  width: 30%;
+  margin-bottom: 10%;
+  font-size: 15px;
+  line-height: 20px;
+  }
+rightcolumn {
+  float:right;
+  width: 50%;
+  margin-right: 10%;
+  margin-top: 0%;
+  margin-bottom: 30%;
+  font-size: 15px;
+  line-height: 25px;
+}
+leftcolumn {
+  float:left;
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 15px;
+  line-height: 25px;
+  padding-top: 100px;
+  width: 100%;
+}
+h2 {
+  color: tomato;
+  margin-left: 5%;
+}
+h1 {
+  color:tomato;
+  font-size: 150px;
+}
+.h2 {
+  font-size: 200px;
+  float:left;
+  width: 100%;
+}
 svg{
   width: 800px;
   height: 600px;
@@ -75,36 +120,4 @@ svg{
   overflow: hidden; 
   margin: 0 auto;
   background: black;
-}
-
-
-
-ul {
-
-}
-
-/*define the link styles*/
-a {
-
-}
-a:hover {
-
-}
-a:visited {
-
-}
-
-/*define the strong styles*/
-strong {
-
-}
-
-/*define the emphasis styles*/
-em {
-
-}
-/*define the image styles*/
-
-img {
- 
 }
